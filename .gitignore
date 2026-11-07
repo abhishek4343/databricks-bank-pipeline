@@ -1,0 +1,21 @@
+# Databricks / local config
+.databricks/
+.databrickscfg
+*.env
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebook checkpoints and logs
+.ipynb_checkpoints/
+*.log
+
+# Local data and outputs (never commit real data)
+data/
+*.csv
+*.parquet
+checkpoints/
